@@ -1,6 +1,5 @@
 /* Common Shared Styles */
-body{
-    font-family: "Merriweather", serif;
+body{   
     margin: 0 !important;
 }
 /* banner related styles */
@@ -11,11 +10,12 @@ body{
     Width: 100%;
     Height: 100vh;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     /* Top: 227px;
     Left: 670px; */
     position: relative;
     opacity: 80px;
+    font-family: "Merriweather", serif;
 }
 .banner-title{
     position: absolute;
@@ -28,10 +28,50 @@ body{
     font-size: 32px;
     text-align: center;
     color: rgb(255, 255, 255);
+    
+    
 }
 .newyear-party{
     font-weight: 900;
     font-size: 72px;
     text-align: center;
     color: rgb(255, 255, 255);
+    /* margin top +: akta lekha ke niche namaite hole */
+    /* margin top -: akta lekha ke upore utthaite hole */
+    margin-top: -30px;
+    
 }
+/* discount related styles */
+.discount-section{
+    font-family: "Inter", serif;
+}
+.discount{
+    font-size: 88px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    margin-top: 20px;
+}
+.holiday{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(255, 0, 0); 
+    text-transform: uppercase;
+    margin-top: -50px;
+}
+.category{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(7, 2, 17);
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.newyearphoto-container{
+    display: flex;
+    justify-content: center; /* Horizontally centers the image */
+    align-items: center;     /* Vertically centers the image */
+    /* height: 100vh;           Adjust the height as needed */
+}
+
