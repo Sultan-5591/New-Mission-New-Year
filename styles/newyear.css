@@ -1,0 +1,37 @@
+/* Common Shared Styles */
+body{
+    font-family: "Merriweather", serif;
+    margin: 0 !important;
+}
+/* banner related styles */
+.banner-section{
+    background: url('../Assets/bannerimage.png'); 
+     /*linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),  */
+    background-repeat: no-repeat;
+    Width: 100%;
+    Height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    /* Top: 227px;
+    Left: 670px; */
+    position: relative;
+    opacity: 80px;
+}
+.banner-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.newyear-title{
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.newyear-party{
+    font-weight: 900;
+    font-size: 72px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
