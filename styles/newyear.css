@@ -4,7 +4,7 @@ body{
 }
 /* banner related styles */
 .banner-section{
-    background: url('../Assets/bannerimage.png'); 
+    background: url('../assets/bannerimage.png'); 
      /*linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),  */
     background-repeat: no-repeat;
     Width: 100%;
@@ -27,9 +27,7 @@ body{
     font-weight: 400;
     font-size: 32px;
     text-align: center;
-    color: rgb(255, 255, 255);
-    
-    
+    color: rgb(255, 255, 255);   
 }
 .newyear-party{
     font-weight: 900;
@@ -73,5 +71,50 @@ body{
     justify-content: center; /* Horizontally centers the image */
     align-items: center;     /* Vertically centers the image */
     /* height: 100vh;           Adjust the height as needed */
+}
+
+/* welcome related styles */
+.welcome-section{
+    background: url('../assets/welcome.png');
+    background-repeat: no-repeat;
+    Width: 1320px;
+    Height: 600px;
+    /* background-size: cover; */
+    background-size: auto;
+    /* background-attachment: fixed; */
+    /* Top: 227px;
+    Left: 670px; */
+    position: relative;
+    opacity: 80px;
+    font-family: "Merriweather", serif;
+    display: flex;
+}
+.welcome-title{
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-align: left;
+    /* margin-top: 200px; */
+    padding-top: 30px;
+    padding-left: 40px;
+    width: 642px;
+    height: 176px;
+}
+.welcome-description{
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    /* padding-top: -500px; */
+    padding-left: 30px;
+    /* text-align: center; */
+    width: 697px;
+    height: 60px;
+    justify-content: left;
+}
+.image-2024{
+    align-items: center;
+    padding-top: 50px;
 }
 
