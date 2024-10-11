@@ -86,8 +86,9 @@ body{
     Left: 670px; */
     position: relative;
     opacity: 80px;
-    font-family: "Merriweather", serif;
+    /* font-family: "Merriweather", serif; */
     display: flex;
+    margin-top: 40px;
 }
 .welcome-title{
     font-family: "Merriweather", serif;
@@ -112,9 +113,56 @@ body{
     width: 697px;
     height: 60px;
     justify-content: left;
+    color: #FFFFFF;
 }
 .image-2024{
     align-items: center;
     padding-top: 50px;
+}
+.join{
+  text-transform: uppercase;
+  padding-left: 80px;
+  font-family: "Inter", serif;
+  font-size: 20px;
+  font-weight: 700;
+  width: 103px;
+  height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+/* info container styles */
+.info-container{
+    width: 1320px;
+    height: 350px;
+    margin-top: 40px;
+    /* align-items: center; */
+    /* margin-left: 140px; */
+    background-color: rgb(227, 216, 216);
+    /* background: linear-gradient(to bottom, red 10%, yellow 5%); */
+}
+.info-title{
+    text-align: center;
+    font-family: "Inter", serif;
+    font-size: 32px;
+    font-weight: 600;
+    align-items: center;
+    line-height: 20px;
+    padding-top: 50px;
+}
+.span{
+    color: red;
+    padding-top: 20px;
+}
+.button{
+    border: 15px;
+    border-radius: 2px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 600px;
+    background-color: red;
+    color: #FFFFFF;
+    padding: 16px 32px;
 }
 
