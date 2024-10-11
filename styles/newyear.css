@@ -1,6 +1,7 @@
 /* Common Shared Styles */
 body{   
     margin: 0 !important;
+    border-radius: 0;
 }
 /* banner related styles */
 .banner-section{
@@ -171,4 +172,50 @@ body{
     height: 463px;
 
 }
+/* subscribe container styles */
+.subscribe-container{
+    width: 1320px;
+    height: 350px;
+    margin-top: 40px;
+    /* align-items: center; */
+    /* margin-left: 140px; */
+    background-color: rgb(227, 216, 216);
+    /* background: linear-gradient(to bottom, red 10%, yellow 5%); */
+}
+
+.mail-icon{
+    /* width: 150px;
+    height: 150px; */
+    /* padding: 150px 150px; */
+    align-items: center;
+    text-align: center;
+    /* padding-left: 500px;
+    padding-top: 40px;
+    padding-bottom: 40px; */
+    padding: 30px 500px;
+}
+.subscribe-title{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #070211;
+    text-align: center;
+    margin-top: -20px;
+
+}
+.subscribe-description{
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #070211;
+    text-align: center;
+    margin-top: -20px;
+    align-items: center;
+    width: 896px;
+    height: 64px;
+    padding-left: 200px;
+
+}
+
+/* footer related styles */
 
