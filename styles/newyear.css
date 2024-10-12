@@ -6,14 +6,10 @@ body{
 /* banner related styles */
 .banner-section{
     background: url('../assets/bannerimage.png'); 
-     /*linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),  */
     background-repeat: no-repeat;
     Width: 100%;
     Height: 100vh;
     background-size: cover;
-    /* background-attachment: fixed; */
-    /* Top: 227px;
-    Left: 670px; */
     position: relative;
     opacity: 80px;
     font-family: "Merriweather", serif;
@@ -37,8 +33,7 @@ body{
     color: rgb(255, 255, 255);
     /* margin top +: akta lekha ke niche namaite hole */
     /* margin top -: akta lekha ke upore utthaite hole */
-    margin-top: -30px;
-    
+    margin-top: -30px;   
 }
 /* discount related styles */
 .discount-section{
@@ -69,25 +64,18 @@ body{
 }
 .newyearphoto-container{
     display: flex;
-    justify-content: center; /* Horizontally centers the image */
-    align-items: center;     /* Vertically centers the image */
-    /* height: 100vh;           Adjust the height as needed */
+    justify-content: center;
+    align-items: center;
 }
-
 /* welcome related styles */
 .welcome-section{
     background: url('../assets/welcome.png');
     background-repeat: no-repeat;
-    Width: 1320px;
+    Width: 100%;
     Height: 600px;
-    /* background-size: cover; */
     background-size: auto;
-    /* background-attachment: fixed; */
-    /* Top: 227px;
-    Left: 670px; */
     position: relative;
     opacity: 80px;
-    /* font-family: "Merriweather", serif; */
     display: flex;
     margin-top: 40px;
 }
@@ -97,7 +85,6 @@ body{
     font-weight: 900;
     color: #FFFFFF;
     text-align: left;
-    /* margin-top: 200px; */
     padding-top: 30px;
     padding-left: 40px;
     width: 642px;
@@ -107,10 +94,7 @@ body{
     font-family: "Inter", serif;
     font-weight: 400;
     font-size: 18px;
-    text-align: center;
-    /* padding-top: -500px; */
-    padding-left: 30px;
-    /* text-align: center; */
+    padding-left: 40px;
     width: 697px;
     height: 60px;
     justify-content: left;
@@ -130,17 +114,13 @@ body{
   height: 24px;
   text-align: center;
   color: #FFFFFF;
-
 }
 /* info container styles */
 .info-container{
-    width: 1320px;
+    width: 100%;
     height: 350px;
     margin-top: 40px;
-    /* align-items: center; */
-    /* margin-left: 140px; */
-    background-color: rgb(227, 216, 216);
-    /* background: linear-gradient(to bottom, red 10%, yellow 5%); */
+    background-image: linear-gradient(#c28383, rgb(246, 246, 246));      
 }
 .info-title{
     text-align: center;
@@ -161,38 +141,26 @@ body{
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    margin-left: 600px;
     background-color: red;
     color: #FFFFFF;
-    padding: 16px 32px;
 }
 /* new best offer related styles */
 .new-best-offer{
-    width: 1320px;
+    width: 100%;
     height: 463px;
-
 }
 /* subscribe container styles */
 .subscribe-container{
-    width: 1320px;
-    height: 350px;
+    width: 100%;
+    height: 420px;
     margin-top: 40px;
-    /* align-items: center; */
-    /* margin-left: 140px; */
-    background-color: rgb(227, 216, 216);
-    /* background: linear-gradient(to bottom, red 10%, yellow 5%); */
+    background: linear-gradient(#c28383, rgb(246, 246, 246));
 }
-
 .mail-icon{
-    /* width: 150px;
-    height: 150px; */
-    /* padding: 150px 150px; */
-    align-items: center;
-    text-align: center;
-    /* padding-left: 500px;
-    padding-top: 40px;
-    padding-bottom: 40px; */
-    padding: 30px 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px;   
 }
 .subscribe-title{
     font-family: "Merriweather", serif;
@@ -201,7 +169,6 @@ body{
     color: #070211;
     text-align: center;
     margin-top: -20px;
-
 }
 .subscribe-description{
     font-family: "Inter", serif;
@@ -210,12 +177,47 @@ body{
     color: #070211;
     text-align: center;
     margin-top: -20px;
-    align-items: center;
-    width: 896px;
-    height: 64px;
-    padding-left: 200px;
-
 }
-
+.subscribe-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.user-mail{
+    padding: 15px 15px;
+    border: 0;
+    border-radius: 15px;
+    width: 300px;
+    font-family: "Inter", serif;
+    font-size: 18px;
+    font-weight: 400;   
+}
+.subscribe-btn{
+    padding: 15px 15px;
+    border: 0;
+    border-radius: 15px;
+    width: 150px;  
+    background: red;
+    color: #FFFFFF;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-weight: 600;
+}
 /* footer related styles */
+.location-helpline{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 50px;
+}
+.location{
+    padding-left: 50px;
+}
+.helpline{
+    padding-right: 50px;
+}
+.social-icon{
+    border: 0;
+    border-style: none;
+    display: flex;
+}
 
