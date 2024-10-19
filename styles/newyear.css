@@ -272,26 +272,23 @@ ul li{
     color: #070211;
     margin-top: -50px;
 }
-.discount-50-section{
-    
-}
+/* discount related styles */
 .gift-box-women-50{
     display: flex;
-
 }
 .women-50{
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
 }
 .discount{
-position: absolute;
-right: 250px;
-margin-top: 50px;
+    position: absolute;
+    right: 250px;
+    margin-top: 50px;
 }
 .bottom-pic{
-position: absolute;
-margin-top: -230px;
+    position: absolute;
+    margin-top: -230px;
 }
 .gift-box{
-z-index: 11;
+    z-index: 11;
 }
