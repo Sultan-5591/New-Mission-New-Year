@@ -153,7 +153,7 @@ body{
 
 /* subscribe container styles */
 .subscribe-container{
-    width: 100%;
+    width: 80%;
     height: 420px;
     margin-top: 40px;
     background: linear-gradient(#c28383, rgb(246, 246, 246));
@@ -291,4 +291,52 @@ ul li{
 }
 .gift-box{
     z-index: 11;
+    margin: 0px 0px 0px 50px;
+}
+/* portfolio-section related styles */
+.portfolio-section{
+    margin-bottom: 100px;
+}
+
+.portfolio-title-container{
+    margin-left: 15px;
+    
+}
+.portfolio-title{
+    font-family: "Inter", serif;
+    font-size: 24px;
+    font-weight: 500;
+    align-items: left;
+    color: #070211;
+}
+.portfolio-greetings{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    align-items: left;
+    color: #070211;
+    margin-top: -10px;
+}
+.portfolio-description{
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: left;
+    color: #070211 60%;
+    margin-top: -30px;
+}
+.portfolio-image-container{
+    width: 375px;
+    margin: 10px 10px 10px 10px;
+}
+.image-1st{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+.image-2nd{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
 }
