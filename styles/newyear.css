@@ -149,6 +149,8 @@ body{
     width: 100%;
     height: 463px;
 }
+
+
 /* subscribe container styles */
 .subscribe-container{
     width: 100%;
@@ -269,4 +271,27 @@ ul li{
     font-weight: 500;
     color: #070211;
     margin-top: -50px;
+}
+.discount-50-section{
+    
+}
+.gift-box-women-50{
+    display: flex;
+
+}
+.women-50{
+    display: flex;
+    justify-content: space-evenly; 
+}
+.discount{
+position: absolute;
+right: 250px;
+margin-top: 50px;
+}
+.bottom-pic{
+position: absolute;
+margin-top: -230px;
+}
+.gift-box{
+z-index: 11;
 }
