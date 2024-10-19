@@ -182,17 +182,19 @@ body{
     margin-top: -30px;
 }
 .best-offer-pic{
-    width: 33.33%;
     border: 10px solid red;
-    margin-right: 10px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: -18px;
+    align-items: center;
 }
 .best-offer-container{
-    width: 33.33%;
-    margin-right: 5px;
+    margin-right: 1px;
+    align-items: left;
 }
 .best-offer{
-    width: 33.34%;
     margin-left: 20px;
+    align-items: right;
 }
 
 /* subscribe container styles */
