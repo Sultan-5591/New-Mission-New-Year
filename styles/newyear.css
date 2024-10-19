@@ -175,8 +175,8 @@ body{
     font-size: 20px;
     font-weight: 400;
     color: #070211;
-    text-align: center;
     margin-top: -20px;
+    text-align: center;
 }
 .subscribe-box{
     display: flex;
@@ -204,20 +204,69 @@ body{
     font-weight: 600;
 }
 /* footer related styles */
+.footer{
+    margin-top: 40px;
+    background-color: #070211;
+}
 .location-helpline{
     display: flex;
     justify-content: space-between;
     padding: 60px 50px;
-}
-.location{
-    padding-left: 50px;
-}
-.helpline{
-    padding-right: 50px;
+    font-family: "Inter", serif;
+    padding: 40px 50px 0px 50px;
+    color: #FFFFFF;
 }
 .social-icon{
     border: 0;
-    border-style: none;
-    display: flex;
 }
-
+.social-icon > ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    padding-right: 17px;
+}
+.icon{
+    justify-content: center;
+    padding-right: 50px;
+}
+.rights{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+/* functional container related styles */
+.functional-container{
+    width: 80%;
+    height: 280px;
+    margin-top: 40px;
+    font-family: "Inter", serif;
+    text-align: center;   
+}
+.function-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #070211;
+}
+.function-holidays{
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: 900;
+    color: #070211;
+    margin-top: -10px;
+}
+.span-holidays{
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: 900;
+    color: #FF0000;
+}
+.function-description{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #070211;
+    margin-top: -50px;
+}
