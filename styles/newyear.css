@@ -187,12 +187,15 @@ body{
     padding: 10px;
     margin-left: -18px;
     align-items: center;
+    width: 34%;
 }
 .best-offer-container{
     margin-right: 1px;
     align-items: left;
+    width: 40%;
 }
 .best-offer{
+    width: 30%;
     margin-left: 20px;
     align-items: right;
 }
